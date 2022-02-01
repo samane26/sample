@@ -1,0 +1,77 @@
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(236,245,244,1) 0%,
+    rgba(38,249,229,1) 50%, rgba(2,166,225,1) 100%, rgba(0,212,255,1) 100%);
+    font-family: sans-serif;
+}
+
+form{
+    width:300px ;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    position: center;
+    text-align: center;
+    margin: 200px auto;
+}
+
+input[type=text],
+input[type=email],
+input[type=password]{
+    text-align: center center;
+    position: center;
+    border: none;
+    border-bottom:1px solid skyblue ;
+    padding: 10px 15px
+
+}
+input[type=text]{
+    margin-top: 20px;
+}
+
+input[type=button]{
+    width: 200px;
+    height: 30px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%,
+    rgba(146,238,234,1) 0%, rgba(38,249,229,1) 50%, rgba(2,166,225,1) 100%, rgba(0,212,255,1) 100%);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 18px;
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+input[type=text]:focus{
+    border-bottom:2px solid steelblue ;
+}
+
+input[type=password]:focus{
+    border-bottom:2px solid steelblue ;
+
+}
+
+input[type=email]:focus {
+    border-bottom: 2px solid steelblue;
+
+}
+
+::selection{
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: skyblue;
+}
+h4{
+    color: #858585;
+    padding-top: 40px;
+}
+#a-gray{
+    color:#858585 ;
+    margin-bottom: 10px;
+}
+h6{
+    margin-top:0
+}
+
